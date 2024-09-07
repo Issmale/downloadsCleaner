@@ -16,14 +16,17 @@ Python: Ensure Python is installed on your system (Python 3.x recommended).
 Code Overview:
 
 Imports:
+
 os: Provides functions for interacting with the file system.
 shutil: Used for file operations like moving files.
 
 Functions:
+
 categorize_files(directory): Scans the specified directory, categorizes files based on their extensions, and returns a dictionary with lists of file paths for each category.
 move_files(directory, categorized_files): Moves files into corresponding subdirectories created within the specified directory.
 
 Example Usage:
+
 Sets the downloads_directory to the user's Downloads folder.
 Calls categorize_files to get a categorized file list.
 Calls move_files to organize files into subdirectories.
